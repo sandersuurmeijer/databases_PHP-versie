@@ -7,7 +7,7 @@ TYP HIERONDER JOUW PHPCODE
 
 $tekst="Ik heb een bijbaantje bij de Aldi. De Aldi betaalt goed.";
 echo "$tekst";
-//$tekst=str_replace('Aldi','Albert Heijn',$tekst);
+$tekst=str_replace('de Aldi','Bureau Objectief',$tekst);
 echo '<h4>$tekst</h4>';
 
 /****************************
